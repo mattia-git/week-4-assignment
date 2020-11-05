@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Crime Analyst</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-itemChange ">
+          <a class="nav-link" href="shopping_robots.html">Shopping Robots</a>
+        </li>
+        <li class="nav-itemChange ">
+            <a class="nav-link" href="blockchain.html">Blockchain</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="crimeanalyst.html">Crime Analyst</a>
+        </li>
+        <li >
+            <a class="nav-link" href="AI_in_medicine.html">AI In Medicine</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <div>
+      <section>
+        <img  class="mySlides" src="imageone.jpg" width="100%" height="500">
+        <img  class="mySlides" src="imagetwo.jpg" width="100%" height="500">
+        <img  class="mySlides" src="imagethree.jpg" width="100%" height="500">
+      </section>
+    </div>
+      <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+         for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+         x[myIndex-1].style.display = "block";
+         setTimeout(carousel, 3000);
+        }
+      </script>
+      <div>
+        <h1 style="text-align: center;color:dimgray ;width: 100%;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 45px; margin: 30px;">TECHNOLOGY IN THE JUSTICE SYSTEM</h1>
+        <p style="margin: 10px;">The justice system including the police force have been trying to increase their efficiency for many decades. With the 
+          rise of technology; there has been a steady increase creating innovative software and machinery to assist the system. 
+          Here are a few innovative technologies used by the police force today...
+        </p>
+        <h3 style="text-align: center;color:white ;background-color: grey; width: 100%;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 
+        sans-serif, Tahoma, Geneva, Verdana, sans-serif;font-size: 25px; margin: 10px;">Facial Recognition Software</h3>
+        <p style="margin: 10px;">
+          This is one of the more controversial emerging technologies used to find and track potential susepects by running images through a very
+          complex system called facial recognition software. Face recognition systems use computer algorithms to pick out specific, distinctive
+          details about a person's face. These details, such as distance between the eyes or shape of the chin, are then converted into a mathematical
+          representation and compared to data on other faces collected in a face recognition database. Though advanced forms of facial recognition 
+          offer “dazzling potential for crime prevention” (for example, tracking wanted criminals, missing people and suspected terrorists), 
+          the report cautions that it is also “raising alarms” about the potential for mistakes and abuse since it could be used to secretly 
+          monitor the public.
+        </p>
+        <h3 style="text-align: center;color:grey; width: 100%;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 
+        sans-serif, Tahoma, Geneva, Verdana, sans-serif;font-size: 25px; margin: 10px;">Biometrics</h3>
+        <p style="margin: 10px;">
+          Police have been using fingerprints to identify people for over a century. Now, in addition to facial recognition and DNA, there
+          is an ever-expanding array of biometric (and behavioral) characteristics to being utilized by law enforcement and the intelligence 
+          community. These include voice recognition, palmprints, wrist veins, iris recognition, gait analysis and even heartbeats. We all have
+          unique biometric characteristics which is why this is so effective and now that it has been digitalised - the accuracy and the
+          efficiency has increased substantially. With comprehensive electronic databases; fingerprints can be taken remotely and an identity
+          can be revealed in under 60 seconds - which makes biometrics a very reliable technology.
+        </p>
+        <h3 style="text-align: center;color:white ;background-color: grey; width: 100%;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 
+        sans-serif, Tahoma, Geneva, Verdana, sans-serif;font-size: 25px; margin: 10px;">Robots</h3>
+        <p style="margin: 10px;">
+          Many law enforcement agencies are now using next-generation robotic cameras to deliver visual and audio surveillance of potential 
+          crime scenes that may be too dangerous or too hard for officers to reach.
+          Some of these devices are even “throwable” (up to 120 feet and capable of withstanding repeated 30-foot drops) — powered by an 
+          electric motor and equipped with high-tech wheels that enable it to move, climb and explore even the most challenging spaces while 
+          being operated wirelessly by a trained officer. Robots come in all forms and are the next generation of technologies which are set
+          to emerge in the law enforcement system.
+        </p>
+        <h4 style="text-align: center; color: black;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 12px; font-variant: small-caps;">
+          section by meenal</h4>
+      </div>
+      <div>
+        <a style="text-align: center; color: black; align-self: center;" href="#top">Back to top of page</a>
+      </div>
+</body>
+</html>
