@@ -1,0 +1,9 @@
+Review of room 3:
+-Interest of content				-	Excellent	Valid applications of comp sci. However 3 topics have no commonality.
+-Consistency and quality of visual presentation	-	Weak		Consistent style sheet. Inconistent navbar, with spelling mistakes on 1 page, and lacking a page on another. Quality is extremely poor, except for the image scrolling.
+-Quality of written presentation		-	Acceptable	Legible. Spelling mistakes are common.
+-Validity of HTML				-	Excellent	One image not present.	
+-Evidence of collaboration including:				
+	-Author info not written by author	-	Perfect		Clear evidence of collaboration.
+	-Balanced contributions from members	-	Outstanding	Pages vary in quality. 
+	-Not completed at the last minute	-	Unacceptable	Committed after deadline.
